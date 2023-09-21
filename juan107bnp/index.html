@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi pagina web juan</title>
+    <link rel="shortcut icon" href="img/1eabd0ec81b2a792ed4039207a60fa51.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body style="background-color:#fafafa;">
+</body>
+</body>
+
+<body>
+    <header>
+        <nav>
+            <a href="file:///C:/Users/Gamer/Desktop/juan107bnp/index.html" hewf="#">Inicio</a>
+            <a href="#primera">Bibliografía</a>
+            <a href="#segunda">Animes</a>
+            <a href="#tercera">Música</a>
+            <a href="#cuarta">Películas</a>
+            <a href="#quinta">Comidas</a>
+            <a href="#ulti">Futuro</a>
+        </nav>
+        <section class="textos-header">
+            <h1>mi pagina web</h1>
+            <h2>juan manuel lopez palomares</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-2.55,28.18 C-4.24,174.22 490.68,-48.78 500.00,49.99 L505.36,163.37 L-12.14,169.28 Z"
+                    style="stroke: none; fill: #fafafa;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section id="primera" class="contenedor sobre-nosotros">
+            <h2 class="titulo">Bibliografía</h2>
+            <br>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/e5680a4f21f3ba11ff9cae626b4550e2-silueta-de-hombre-logro.png" alt=""
+                    class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>♠</span>Quien soy</h3>
+                    <p>Soy una persona que considera siempre mirar lo divertido y bueno a la vida ya que aunque pasen
+                        bastantes eventos negativos siempre mirara para enfrente y seguir adelante con mi humor
+                        desgraciado.</p>
+                    <h3><span>♥</span>mis gustos</h3>
+                    <p>Soy una persona que me gusta hacer reír a las ademas y ese sentimiento de ver a los demás por una
+                        payasada que he dicho o hecho me alegra el día, otra cosa que me gusta mucho es estar en llamada
+                        con mis amigos mientras jugamos algo.</p>
+                </div>
+            </div>
+        </section>
+        <section id="segunda" class="Animes">
+            <div class="contenedor">
+                <br>
+                <h2 class="titulo">Mis Animes</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/kaguyaGOD anime 6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="https://www3.animeflv.to/anime/kaguyasama-wa-kokurasetai-tensaitachi-no-renai-zunousen"
+                                target="_blank">
+                                <img src="img/icono para animes.png" alt="">
+                                <p>kaguya sama</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/anime 1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="https://www3.animeflv.to/anime/gate-jieitai-kanochi-nite-kaku-tatakaeri"
+                                target="_blank">
+                                <img src="img/icono para animes.png" alt="">
+                                <p>GATE</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/anime 2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="https://www3.animeflv.to/anime/charlotte" target="_blank">
+                                <img src="img/icono para animes.png" alt="">
+                                <p>charlotte</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/anime 3.png" alt="">
+                        <div class="hover-galeria">
+                            <a href="https://www3.animeflv.to/anime/sword-art-online" target="_blank">
+                                <img src="img/icono para animes.png" alt="">
+                                <p>sword art online</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/anime 4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="https://www3.animeflv.to/anime/black-clover-tv" target="_blank">
+                                <img src="img/icono para animes.png" alt="">
+                                <p>Good clover</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/anime 5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="https://www3.animeflv.to/anime/full-metal-panic-fumoffu" target="_blank">
+                                <img src="img/icono para animes.png" alt="">
+                                <p>full metal panic fumoffu</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="tercera" class="Música-contenedor">
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <h2 class="titulo">Mi música preferida</h2>
+            <div class="cards">
+                <div class="card">
+                    <h2>Blanco Brown - The Git Up</h2>
+                    <audio controls>
+                        <source src="mus/Blanco Brown - The Git Up (Official Audio)(MP3_320K).mp3" type="audio/mp3">
+                        <script>
+                            $("audio").on("play", function () {
+                                $("audio").not(this).each(function (index, audio) {
+                                    audio.pause();
+                                });
+                            });
+                        </script>
+                    </audio>
+                </div>
+                <div class="card1">
+                    <h2>BTS (방탄소년단) _Butter</h2>
+                    <audio controls>
+                        <source
+                            src="mus/BTS (방탄소년단) _Butter (feat. Megan Thee Stallion)_ Official Visualizer(MP3_320K).mp3"
+                            type="audio/mp3">
+                        <script>
+                            $("audio").on("play", function () {
+                                $("audio").not(this).each(function (index, audio) {
+                                    audio.pause();
+                                });
+                            });
+                        </script>
+                    </audio>
+                </div>
+                <div class="card">
+                    <h2>Everything Goes On - Porter Robinson</h2>
+                    <audio controls>
+                        <source src="mus/Everything Goes On - Porter Robinson (Subtitulado - Español)(MP3_320K).mp3"
+                            type="audio/mp3">
+                        <script>
+                            $("audio").on("play", function () {
+                                $("audio").not(this).each(function (index, audio) {
+                                    audio.pause();
+                                });
+                            });
+                        </script>
+                    </audio>
+                </div>
+                <div class="card1">
+                    <h2>Aftermath - The way You Are</h2>
+                    <audio controls>
+                        <source src="mus/MMV -  Aftermath - The way You Are(MP3_320K).mp3" type="audio/mp3">
+                        <script>
+                            $("audio").on("play", function () {
+                                $("audio").not(this).each(function (index, audio) {
+                                    audio.pause();
+                                });
+                            });
+                        </script>
+                    </audio>
+                </div>
+                <div class="card">
+                    <h2>Mucho Para Mí - Santa RM Ft. Franco Escamilla</h2>
+                    <audio controls>
+                        <source src="mus/Mucho Para Mí - Santa RM Ft. Franco Escamilla [Video lyric](MP3_320K).mp3"
+                            type="audio/mp3">
+                        <script>
+                            $("audio").on("play", function () {
+                                $("audio").not(this).each(function (index, audio) {
+                                    audio.pause();
+                                });
+                            });
+                        </script>
+                    </audio>
+                </div>
+                <div class="card1">
+                    <h2>Spy x Family ED</h2>
+                    <audio controls>
+                        <source src="mus/Spy x Family ED. Full _ Kigeki - Sub Español ♡(MP3_320K).mp3" type="audio/mp3">
+                        <script>
+                            $("audio").on("play", function () {
+                                $("audio").not(this).each(function (index, audio) {
+                                    audio.pause();
+                                });
+                            });
+                        </script>
+                    </audio>
+                </div>
+            </div>
+        </section>
+        <section id="cuarta" class="peliculas-contenedor">
+            <div class="contenedor">
+                <h2 class="titulo">Películas</h2>
+                <div class="Peliculas-cont">
+                    <div class="Peliculas-ind">
+                        <img src="img/titanes-del-pacifico.gif" alt="" type="img/gif">
+                        <div class="textos-peli">
+                            <h2>titanes del pacifico</h2>
+                            <p>En un futuro cercano, en 2015 la humanidad comienza a ser atacada por los kaijus, una
+                                especie de monstruos alienígenas gigantes que emergen desde un portal interdimensional
+                                conocido como "El Abismo", que se encuentra en el fondo del Océano Pacífico, para
+                                destruir a la Raza humana.</p>
+                        </div>
+                    </div>
+                    <div class="Peliculas-ind">
+                        <img src="img/kimi-no-na-wa-anime.gif" alt="" type="img/gif">
+                        <div class="textos-peli">
+                            <h2>kimi no na wa</h2>
+                            <p>Mitsuha es una adolescente que detesta su vida rural en el campo. Por otro lado, Taki es
+                                un chico que vive en Tokio y sueña con ser un artista o un arquitecto. Los destinos de
+                                estos jóvenes se entrelazan la noche en que dos estrellas caen del cielo, y comienzan a
+                                intercambiar sus cuerpos de la noche a la mañana. Con el pasar del tiempo, desarrollan
+                                maneras de comunicarse entre ellos y un creciente anhelo de conocerse en persona.</p>
+                        </div>
+                    </div>
+                    <div class="Peliculas-ind">
+                        <img src="img/el planeta del tesoro.gif" alt="" type="img/gif">
+                        <div class="textos-peli">
+                            <h2>el planeta del tesoro</h2>
+                            <p>Jim, popular surfista solar, se enfrenta a una cacería intergaláctica de tesoros. En sus
+                                manos cae un legendario mapa que le llevará a buscar la fortuna más grande del Universo.
+                                A bordo de un "galeón solar", Jim es el ayudante del cocinero del barco, John Silver
+                                (mitad hombre mitad máquina), que le enseña cómo ser un buen explorador del espacio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quinta" class="Comidas-contenedor">
+            <h2 class="titulo">comida favorita</h2>
+            <div class="carton">
+                <div class="cartones">
+                    <h2>flautas</h2>
+                    <img src="img/comida 1.jpg" alt="">
+                </div>
+                <div class="cartones">
+                    <h2>comida china</h2>
+                    <img src="img/comida 2.jpg" alt="">
+                </div>
+                <div class="cartones">
+                    <h2>pollo crema</h2>
+                    <img src="img/comida 3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="ulti" class="about-futuro">
+            <div class="contenedor">
+                <h2>futuro</h2>
+                <div class="resumen-futuro">
+                    <p>Me meta a futuro es poder trabajar para una empresa famosa o reconocida y en ella poder
+                        desarrollar mi conocimiento obtenido en esta universalidad, pudiendo trabajar a distancia
+                        desarrollando o mejorando sitios web, a la vez de darle mantenimiento ya que habitualmente es lo
+                        realmente se hace cuando ya tienes un producto en la programación.
+                        Otra meta que tengo al largo plazo es poderme irme a vivir a Andorra ya que a lo que he ,mirado
+                        es algo muy bello vivir en esa localidad.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="contenedor">
+                <div class="content-foo">
+                    <h4>nombre:_</h4>
+                    <p>juan manuel lopez palomares</p>
+                </div>
+                <div class="content-foo">
+                    <h4>celular:_</h4>
+                    <p>664 367 54 18</p>
+                </div>
+                <div class="content-foo">
+                    <h4>materia:_</h4>
+                    <p>programacion administrativa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
